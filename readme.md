@@ -9,19 +9,27 @@ A simple voice-controlled assistant in Python to give information about time, pl
 ```bash
 git clone https://github.com/ashrayasjp/VoiceAssistance.git
 cd voiceassistant
+```
 
-a. Create and activate a virtual environment (optional):
+2. **Create and activate a virtual environment (optional):**
+
+
+```bash
 python -m venv venv
 # Windows
 venv\Scripts\activate
 # macOS/Linux
 source venv/bin/activate
-
-b. Install dependencies:
+```
+3. **Install dependencies:**
+   ```bash
    pip install -r requirements.txt
-
-c.  Create required folders:
+   ```
+4. **Create required folders:**
+    ```bash
     logs/ → to store command logs
-
-d. Run the assistant:
+    ```
+5. **Run the assistant:**
+   ```bash
    python main.py
+   ```
